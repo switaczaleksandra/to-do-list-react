@@ -4,7 +4,7 @@ import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
-import Container from "./Contaier"
+import Container from "./Container"
 
 const tasks = [
   { id: 1, content: "przejść na Reacta", done: false },
