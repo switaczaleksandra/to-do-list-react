@@ -36,6 +36,8 @@ export const {
     removeTask,
     setAllDone } = tasksSlice.actions;
 
+const selectTasksState = state => state.tasks;
+
 export const selectTasks = state => state.tasks;
 export const selectHideDone = state => selectTasksState(state).hideDone;
 export const selectAreTasksEmpty = state => selectTasks(state).length === 0;
